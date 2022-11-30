@@ -23,5 +23,5 @@ generatorOptions:
 
 images:
   - name: mysql
-    newName: registry.redhat.io/rhel8/mariadb-103
-    newTag: "1-188"
+    newName: docker.io/centos/mariadb-103-centos8
+    newTag: "latest"

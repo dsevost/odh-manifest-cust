@@ -32,5 +32,5 @@ patchesJson6902:
     path: route.yaml
 images:
 - name: oauth-proxy
-  newName: registry.redhat.io/openshift4/ose-oauth-proxy
-  newTag: v4.8
+  newName: quay.io/openshift/origin-oauth-proxy
+  newTag: 4.12

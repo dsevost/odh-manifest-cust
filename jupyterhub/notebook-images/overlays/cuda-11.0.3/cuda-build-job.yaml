@@ -10,7 +10,7 @@ spec:
   template:
     spec:
       containers:
-        - image: registry.redhat.io/openshift4/ose-cli:v4.7
+        - image: quay.io/openshift/okd-content:4.11.0-0.okd-2022-11-19-050030-cli
           volumeMounts:
             - name: cuda-ubi8-build-chain
               mountPath: /tmp/

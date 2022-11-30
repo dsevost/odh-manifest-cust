@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: metrics
-          image: registry.redhat.io/ubi8/go-toolset:1.16.12
+          image: registry.access.redhat.com/ubi8/go-toolset:1.16.12
           imagePullPolicy: Always
           workingDir: /usr/tmp
           command:

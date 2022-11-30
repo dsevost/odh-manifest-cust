@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: mariadb
-          image: docker.io/centos/mariadb-103-centos8:latest
+          image: mysql
           ports:
             - containerPort: 3306
           readinessProbe:
