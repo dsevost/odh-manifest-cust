@@ -13,7 +13,7 @@
       - --pass-access-token
       - '--openshift-delegate-urls={"/": {"resource": "services", "verb": "get", "name": "odh-dashboard"}}'
       - --skip-auth-regex=^/metrics
-    image: oauth-proxy
+    image: quay.io/openshift/origin-oauth-proxy:4.12
     ports:
       - containerPort: 8443
         name: https

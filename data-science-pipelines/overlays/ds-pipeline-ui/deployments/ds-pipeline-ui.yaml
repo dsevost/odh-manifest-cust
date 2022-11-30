@@ -31,7 +31,7 @@ spec:
             - '--openshift-delegate-urls={"/": {"resource": "route", "verb": "get", "name": "ds-pipeline-ui"}}'
             - '--openshift-sar={"resource": "route", "resourceName": "ds-pipeline-ui", "verb": "get"}'
             - --skip-auth-regex='(^/metrics|^/apis/v1beta1/healthz)'
-          image: registry.redhat.io/openshift4/ose-oauth-proxy:v4.8
+          image: quay.io/openshift/origin-oauth-proxy:4.12
           ports:
             - containerPort: 8443
               name: https
