@@ -16,5 +16,5 @@ resources:
 - service.yaml
 images:
 - name: odh-dashboard
-  newName: quay.io/opendatahub/odh-dashboard
-  newTag: v2.2.1
+  newName: quay.io/dsevosty_dev/odh-dashboard
+  newTag: nightly
