@@ -4,6 +4,6 @@ metadata:
   name: openshift-pipelines-operator
   namespace: openshift-operators
 spec:
-  name: openshift-pipelines-operator-rh
-  source: redhat-operators
+  name: tektoncd-operator
+  source: operatorhubio-catalog
   sourceNamespace: openshift-marketplace
