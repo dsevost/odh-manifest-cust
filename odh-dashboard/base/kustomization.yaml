@@ -17,4 +17,4 @@ resources:
 images:
 - name: odh-dashboard
   newName: quay.io/dsevosty_dev/odh-dashboard
-  newTag: nightly
+  newTag: v2.2.1-hotfix
