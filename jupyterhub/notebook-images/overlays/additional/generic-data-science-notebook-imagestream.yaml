@@ -22,3 +22,13 @@ spec:
     name: "v0.0.5"
     referencePolicy:
       type: Source
+  - annotations:
+      opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.8.6"}]'
+      opendatahub.io/notebook-python-dependencies: '[{"name":"Boto3","version":"1.21.0"},{"name":"Kafka-Python","version":"2.0.2"},{"name":"Matplotlib","version":"3.5.2"},{"name":"Numpy","version":"1.23.1"},{"name":"Pandas","version":"1.4.3"},{"name":"Scipy","version":"1.8.1"}]'
+      openshift.io/imported-from: quay.io/thoth-station/s2i-generic-data-science-notebook
+    from:
+      kind: DockerImage
+      name: quay.io/thoth-station/s2i-generic-data-science-notebook:v0.2.0
+    name: "v0.2.0"
+    referencePolicy:
+      type: Source
